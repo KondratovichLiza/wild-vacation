@@ -1,0 +1,843 @@
+            .container {
+                max-width: 1133px;
+                margin: auto;
+                position: relative;
+            }
+            
+            h1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 48px;
+                line-height: 58px;
+                color: #fff;
+                max-width: 582px;
+            }
+            
+            h2 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 34px;
+                line-height: 38px;
+                color: #fff;
+                text-align: center;
+            }
+            
+            h3 {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #fff;
+            }
+            
+            button {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                border: 1px solid #FFB800;
+                color: #fff;
+                border-radius: 4px;
+                padding: 11px 37px 11px 37px;
+                background: transparent;
+                cursor: pointer;
+            }
+            
+            header {
+                padding-top: 33px;
+                position: absolute;
+                width: 100%;
+                z-index: 99;
+            }
+            
+            header .header-flex {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            
+            .header-flex nav ul {
+                display: flex;
+            }
+            
+            .menu {
+                display: none;
+            }
+            
+            nav a {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 40px;
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .active {
+                border: 1px solid #FFB800;
+                border-radius: 10px;
+                padding: 12px 34px 12px 34px;
+            }
+            
+            .active:hover {
+                background-color: #FFB800;
+                color: #000;
+            }
+            
+            nav li {
+                padding-left: 40px;
+            }
+            
+            nav li:first-child {
+                padding-left: 0;
+            }
+            
+            header .eng {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: rgba(196, 196, 196, 0.5);
+                padding-left: 33px;
+            }
+            
+            header .rus {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #fff;
+                padding-left: 21px;
+            }
+            
+            header p {
+                display: inline-block;
+            }
+            
+            header .lang {
+                position: absolute;
+                left: 188px;
+                top: 25px;
+            }
+            
+            .first-page {
+                background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%), url(./images/background.jpg);
+                padding-top: 241px;
+                padding-bottom: 70px;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .first-page .tagline p {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 38px;
+                color: #fff;
+                padding-top: 26px;
+                padding-bottom: 277px;
+                max-width: 474px;
+            }
+            
+            .services h2 {
+                padding-bottom: 44px;
+            }
+            
+            .services p {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: #fff;
+                padding-top: 17px;
+            }
+            
+            .services-flex div {
+                text-align: center;
+                max-width: 264px;
+            }
+            
+            .services-flex {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            main .form-background {
+                background: rgba(51, 51, 51, 0.25);
+                box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+                backdrop-filter: blur(24px);
+                border-radius: 10px;
+                width: 500px;
+                height: 360px;
+                position: absolute;
+                bottom: 430px;
+                left: 700px;
+            }
+            
+            .container-form {
+                max-width: 360px;
+                margin: auto;
+            }
+            
+            input {
+                padding: 8px 0 9px 13px;
+                border: 1px solid #fff;
+                border-radius: 4px;
+                background: transparent;
+            }
+            
+            input:focus {
+                color: #fff;
+            }
+            
+             ::placeholder {
+                font-family: 'Montserrat';
+                font-size: 13px;
+                line-height: 16px;
+                color: #fff;
+                font-weight: 500;
+            }
+            
+            input:focus::-webkit-input-placeholder {
+                color: rgb(195, 190, 190);
+            }
+            
+            .where {
+                width: 346px;
+                margin-bottom: 21px;
+                background-image: url(./images/search.svg);
+                background-repeat: no-repeat;
+                background-position: 98%;
+            }
+            
+            .when {
+                width: 151px;
+                margin-right: 24px;
+            }
+            
+            .duration {
+                width: 151px;
+            }
+            
+            select {
+                width: 100%;
+                background: transparent;
+                color: #fff;
+                font-family: 'Montserrat';
+                font-size: 13px;
+                line-height: 16px;
+                padding: 8px 0 9px 13px;
+                margin-top: 21px;
+                margin-bottom: 21px;
+                border: 1px solid #fff;
+                border-radius: 4px;
+                font-weight: 500;
+            }
+            
+            select option {
+                color: #000;
+            }
+            
+            .container-form h3 {
+                padding: 51px 0 23px 0;
+            }
+            
+            form button {
+                width: 100%;
+                background-color: #FFB800;
+                border: none;
+                border-radius: 4px;
+                padding: 5px 145px 8px 145px;
+                margin-bottom: 55px;
+                color: #333;
+            }
+            
+            section.directions {
+                background: rgba(27, 30, 34, 1);
+                padding-bottom: 72px;
+                text-align: center;
+            }
+            
+            .directions button {
+                margin-top: 30px;
+            }
+            
+            .directions button:hover {
+                background-color: #FFB800;
+                color: #000;
+            }
+            
+            .directions h2 {
+                padding-bottom: 45px;
+            }
+            
+            .cards-flex {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                text-align: left;
+            }
+            
+            .card {
+                max-width: 361px;
+                background-color: rgba(35, 40, 47, 1);
+                margin-bottom: 24px;
+                border-radius: 4px;
+                transition: 1s;
+            }
+            
+            .card:hover {
+                transform: scale(1.07, 1.05);
+                background-color: #fff;
+            }
+            
+            .card h3 {
+                padding-bottom: 16px;
+            }
+            
+            .card:hover h3 {
+                color: #333;
+            }
+            
+            .card:hover p {
+                color: #333;
+            }
+            
+            .card a {
+                text-decoration: none;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: #fff;
+                opacity: 0.5;
+            }
+            
+            .card:hover a {
+                color: #333;
+            }
+            
+            .card-flex-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 165px;
+                padding: 16px 18px 24px 22px;
+                transition: 1s;
+                border-radius: 4px;
+            }
+            
+            .card-flex-text p {
+                flex-grow: 1;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #fff;
+            }
+            
+            .card-flex-text:hover {
+                background-color: #fff;
+            }
+            
+            .pic {
+                position: relative;
+            }
+            
+            .pic .inf {
+                position: absolute;
+                top: 159px;
+            }
+            
+            .inf p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 32px;
+                color: #1B1E22;
+                display: inline-block;
+            }
+            
+            .text {
+                background-color: #FFB800;
+                padding: 10px 0 10px 6px;
+            }
+            
+            .price {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            
+            .date {
+                background: #1B1E22;
+                opacity: 0.75;
+                border-radius: 0px 6px 6px 0px;
+                color: #fff;
+                padding: 10px 6px 10px 6px;
+                line-height: 16px;
+            }
+            
+            section.statistics {
+                background-image: linear-gradient(rgba(27, 30, 34, 0.78), rgba(27, 30, 34, 0.78)), url(./images/backgroundtwo.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .statistics-flex {
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                padding: 83px 0 68px 0;
+            }
+            
+            .statistics .number {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 78px;
+                line-height: 58px;
+                color: #FFB800;
+                padding-bottom: 23px;
+            }
+            
+            .statistics p {
+                font-family: 'Montserrat';
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #fff;
+            }
+            
+            section.blog {
+                padding: 62px 0 62px 0;
+                background: rgba(27, 30, 34, 1);
+                text-align: center;
+            }
+            
+            .blog-flex {
+                display: flex;
+                justify-content: space-between;
+                margin: 44px 0 48px 0;
+            }
+            
+            .blog-flex .img {
+                max-width: 552px;
+                background-image: linear-gradient( rgba(31, 31, 31, 0.65), rgba(31, 31, 31, 0.65)), url(./images/blog.png);
+                background-size: cover;
+                background-position: center;
+                text-align: center;
+            }
+            
+            .blog-flex .img h2 {
+                max-width: 521px;
+                padding: 51px 0 28px 0;
+            }
+            
+            .blog-flex .img p {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                color: #fff;
+            }
+            
+            .blog-flex .travel-blogger,
+            .lifehacks {
+                max-width: 264px;
+                background-color: rgba(35, 40, 47, 1);
+            }
+            
+            .blog-flex-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 264px;
+                padding: 20px;
+                text-align: left;
+            }
+            
+            .blog-flex-text p {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                color: #fff;
+                flex-grow: 1;
+            }
+            
+            .blog-flex-text h3 {
+                padding-bottom: 14px;
+            }
+            
+            .blog-flex-text img {
+                margin-left: 20px;
+                margin-right: 7px;
+            }
+            
+            .blog-flex-text span {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            
+            .blog button:hover {
+                background-color: #FFB800;
+                color: #000;
+            }
+            
+            section.reviews {
+                background: rgba(27, 30, 34, 1);
+                background-image: url(./images/quotes.svg);
+                background-repeat: no-repeat;
+                background-position: 50% 51%;
+                padding-bottom: 62px;
+                text-align: center;
+            }
+            
+            .reviews .quotes {
+                top: 45%;
+                left: 47%;
+                ;
+            }
+            
+            .reviews p.img {
+                margin: 47px 0 30px 0;
+            }
+            
+            .reviews p.reviews {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 32px;
+                color: #fff;
+                max-width: 924px;
+                margin: auto;
+            }
+            
+            .reviews p.name {
+                font-family: 'Montserrat';
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 16px;
+                color: #FFB800;
+                padding: 6px 0 32px 0;
+            }
+            
+            .reviews button {
+                width: 8px;
+                height: 8px;
+                background: rgba(255, 255, 255, 0.5);
+                border: none;
+                padding: 0;
+                margin-right: 12px;
+            }
+            
+            .reviews button.white {
+                margin-right: 0;
+                background: #fff;
+            }
+            
+            footer {
+                background: rgba(27, 30, 34, 1);
+                padding-bottom: 23px;
+            }
+            
+            .footer-flex {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .footer-flex div {
+                max-width: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .footer-flex p {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                color: #FFB800;
+            }
+            
+            .footer-flex a {
+                padding-left: 27px;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 16px;
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .footer-flex .tel {
+                padding-left: 95px;
+            }
+            
+            .footer-flex img {
+                padding-left: 24px;
+                padding-top: 10px;
+            }
+            
+            .footer-flex .img-flex {
+                display: flex;
+            }
+            
+            .footer-flex img:first-child {
+                padding-left: 0px;
+            }
+            
+            @media(max-width:1300px) {
+                main .form-background {
+                    width: 440px;
+                }
+            }
+            
+            @media(max-width:1185px) {
+                main .form-background {
+                    left: 600px;
+                }
+            }
+            
+            @media(max-width:1140px) {
+                .container {
+                    max-width: 95%;
+                }
+            }
+            
+            @media(max-width: 1135px) {
+                .cards-flex {
+                    justify-content: space-around;
+                }
+            }
+            
+            @media(max-width:1125px) {
+                .blog-flex {
+                    margin-right: 20px;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                .blog-flex .card-lifehacks {
+                    display: none;
+                }
+            }
+            
+            @media(max-width:1090px) {
+                main .form-background {
+                    width: 400px;
+                    height: 300px;
+                }
+                .container-form h3 {
+                    padding-top: 20px;
+                }
+            }
+            
+            @media(max-width:1040px) {
+                nav {
+                    display: none;
+                }
+                .menu {
+                    display: inline-block;
+                }
+                main .form-background {
+                    position: static;
+                    margin: auto;
+                }
+                .first-page {
+                    padding-top: 150px;
+                }
+                .tagline {
+                    text-align: center;
+                }
+                h1 {
+                    max-width: none;
+                }
+                .first-page .tagline p {
+                    max-width: none;
+                    padding-bottom: 30px;
+                }
+                .services {
+                    padding-top: 50px;
+                }
+            }
+            
+            @media(max-width:801px) {
+                .card {
+                    margin-right: 0;
+                }
+            }
+            
+            @media(max-width:890px) {
+                .statistics .number {
+                    font-size: 50px;
+                }
+                .statistics p {
+                    font-size: 15px;
+                }
+                .card-travel-blogger {
+                    display: none;
+                }
+                .blog-flex {
+                    margin-right: 0;
+                }
+                .blog-flex .img {
+                    height: 480px;
+                }
+            }
+            
+            @media(max-width:800px) {
+                .cards-flex {
+                    justify-content: center;
+                }
+                .card {
+                    margin-right: 20px;
+                }
+            }
+            
+            @media(max-width:760px) {
+                .card {
+                    margin-right: 5px;
+                }
+            }
+            
+            @media(max-width:730px) {
+                .services-flex {
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                }
+                .services-flex img {
+                    margin-top: 20px;
+                }
+                .footer-flex {
+                    flex-wrap: wrap;
+                }
+                .footer-flex p {
+                    padding-left: 20px;
+                    padding-top: 10px;
+                }
+            }
+            
+            @media(max-width:698px) {
+                .footer-flex img {
+                    padding-top: 0;
+                }
+            }
+            
+            @media(max-width:552px) {
+                .reviews p.reviews {
+                    font-size: 20px;
+                }
+                .statistics .number {
+                    font-size: 40px;
+                }
+                .statistics p {
+                    font-size: 13px;
+                }
+                .blog-flex .img {
+                    max-width: 400px;
+                    height: 390px;
+                }
+                .blog-flex .img h2 {
+                    font-size: 30px;
+                }
+            }
+            
+            @media(max-width:420px) {
+                h2 {
+                    font-size: 28px;
+                }
+                main .form-background {
+                    width: 350px;
+                }
+                .container-form {
+                    max-width: 300px;
+                }
+                .where {
+                    width: 280px;
+                }
+                .when {
+                    margin-right: 0;
+                    width: 280px;
+                    margin-bottom: 21px;
+                }
+                .duration {
+                    width: 280px;
+                }
+                select {
+                    width: 295px;
+                }
+                main .form-background {
+                    height: 350px;
+                }
+                form button {
+                    padding: 7px 5px 7px 5px;
+                    width: 150px;
+                    font-size: 15px;
+                }
+                form {
+                    text-align: center;
+                }
+                header .lang {
+                    top: 50px;
+                    left: 0;
+                }
+                header .eng {
+                    padding-left: 10px;
+                }
+                header .rus {
+                    padding-left: 10px;
+                }
+                h1 {
+                    font-size: 43px;
+                }
+                .statistics-flex {
+                    flex-direction: column;
+                }
+                .statistics p {
+                    font-size: 16px;
+                }
+            }
+            
+            @media(max-width:400px) {
+                .card {
+                    max-width: 300px;
+                }
+                .card img {
+                    max-width: 300px;
+                }
+                .card-flex-text {
+                    height: 200px;
+                }
+                .pic .inf {
+                    top: 130px;
+                }
+                .blog-flex .img {
+                    max-width: 320px;
+                }
+            }
+            
+            @media(max-width:393px) {
+                h1 {
+                    font-size: 35px;
+                }
+                .first-page .tagline p {
+                    font-size: 17px;
+                }
+            }
+            
+            @media(max-width:370px) {
+                main .form-background {
+                    width: 310px;
+                }
+            }
